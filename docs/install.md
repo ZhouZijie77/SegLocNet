@@ -32,5 +32,5 @@ pip install -e /path_to_root_directory_of_the_argoverse-api_repo/
 git clone https://github.com/ZhouZijie77/SegLocNet.git
 cd SegLocNet
 pip install -v -e .
-python projects/BEVFusion/setup.py develop
+python projects/SegLocNet/setup.py develop
 ```
