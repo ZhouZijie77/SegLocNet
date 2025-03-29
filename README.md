@@ -23,18 +23,18 @@ cd SegLocNet
 Train with a single GPU
 ```bash
 # nuScenes HD maps
-python tools/train.py projects\SegLocNet\configs\seglocnet_nusc_hd.py
+python tools/train.py projects/SegLocNet/configs/seglocnet_nusc_hd.py
 
 # nuScenes SD maps
-python tools/train.py projects\SegLocNet\configs\seglocnet_nusc_sd.py
+python tools/train.py projects/SegLocNet/configs/seglocnet_nusc_sd.py
 ```
 Train with multiple GPUs
 ```bash
 # nuScenes HD maps
-./tools/dist_train.sh projects\SegLocNet\configs\seglocnet_nusc_hd.py ${GPU_NUM}
+./tools/dist_train.sh projects/SegLocNet/configs/seglocnet_nusc_hd.py ${GPU_NUM}
 
 # nuScenes SD maps
-./tools/dist_train.sh projects\SegLocNet\configs\seglocnet_nusc_sd.py ${GPU_NUM}
+./tools/dist_train.sh projects/SegLocNet/configs/seglocnet_nusc_sd.py ${GPU_NUM}
 ```
 
 ## Test
@@ -44,18 +44,18 @@ cd SegLocNet
 Test with a single GPU
 ```bash
 # nuScenes HD maps
-python projects\SegLocNet\configs\seglocnet_nusc_hd.py ${CHECKPOINT_FILE}
+python projects/SegLocNet/configs/seglocnet_nusc_hd.py ${CHECKPOINT_FILE}
 
 ## nuScenes SD maps
-python projects\SegLocNet\configs\seglocnet_nusc_sd.py ${CHECKPOINT_FILE}
+python projects/SegLocNet/configs/seglocnet_nusc_sd.py ${CHECKPOINT_FILE}
 ```
 Test with multiple GPUs
 ```bash
 # nuScenes HD maps
-./tools/dist_test.sh projects\SegLocNet\configs\seglocnet_nusc_hd.py ${CHECKPOINT_FILE} ${GPU_NUM}
+./tools/dist_test.sh projects/SegLocNet/configs/seglocnet_nusc_hd.py ${CHECKPOINT_FILE} ${GPU_NUM}
 
 ## nuScenes SD maps
-./tools/dist_test.sh projects\SegLocNet\configs\seglocnet_nusc_sd.py ${CHECKPOINT_FILE} ${GPU_NUM}
+./tools/dist_test.sh projects/SegLocNet/configs/seglocnet_nusc_sd.py ${CHECKPOINT_FILE} ${GPU_NUM}
 ```
 
 ## TODO
