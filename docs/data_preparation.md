@@ -16,9 +16,9 @@
    - [Miami]()
 2. Generate raster tiles:
 ```bash
-python projects\LocUtils\prepare_nusc.py ${PATH_TO_OSM_FILE} ${LOCATION}
+python projects/LocUtils/prepare_nusc.py ${PATH_TO_OSM_FILE} ${LOCATION}
 # LOCATION = bs | son | shv | sq
-python projects\LocUtils\prepare_argo.py ${PATH_TO_OSM_FILE} ${LOCATION}
+python projects/LocUtils/prepare_argo.py ${PATH_TO_OSM_FILE} ${LOCATION}
 # LOCATION = mia | pit
 ```
 This will generate `tiles_{bs|son|sq|shv|mia|pit}_sd.pkl`.
