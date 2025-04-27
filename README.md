@@ -4,6 +4,7 @@ This is the official implementation for our paper: [[arXiv]](https://arxiv.org/p
 **SegLocNet: Multimodal Localization Network for Autonomous Driving via Bird’s-Eye-View Segmentation**
 
 [Zijie Zhou](https://github.com/ZhouZijie77), [Zhangshuo Qi](https://github.com/QiZS-BIT), [Luqi Cheng](https://github.com/ChengLuqi), Guangming Xiong*
+
 <img src="resources/intro.png"/>
 To address the localization challenges due to signal occlusion and multipath errors in urban environments, we propose SegLocNet, a novel multimodal localization network that leverages multi-view images and the LiDAR point cloud to construct the local BEV semantic map of the surroundings. The precise pose estimation is achieved through the alignment of the BEV semantic map with the lightweight prior map.
 
