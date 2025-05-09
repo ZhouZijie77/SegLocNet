@@ -5,7 +5,10 @@ This is the official implementation for our paper: [[arXiv]](https://arxiv.org/p
 
 [Zijie Zhou](https://github.com/ZhouZijie77), [Zhangshuo Qi](https://github.com/QiZS-BIT), [Luqi Cheng](https://github.com/ChengLuqi), Guangming Xiong*
 
+> The code will be released as soon as our paper is accepted.
+
 <img src="resources/intro.png"/>
+
 To address the localization challenges due to signal occlusion and multipath errors in urban environments, we propose SegLocNet, a novel multimodal localization network that leverages multi-view images and the LiDAR point cloud to construct the local BEV semantic map of the surroundings. The precise pose estimation is achieved through the alignment of the BEV semantic map with the lightweight prior map.
 
 ## Installation
